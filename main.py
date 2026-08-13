@@ -2,8 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8992617197:AAFbwlHBWzilu1zLlIXfBVXNESWN3Rep-XQ"
-
+TOKEN = "8992617197:AALGGUQZv26Zhnw33K_2xCHD52kvmYW0II"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привіт! Напиши мені опис музики, яку хочеш створити.")
 
